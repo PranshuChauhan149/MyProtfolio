@@ -2,6 +2,11 @@ import Img from "../../public/image/pranshu.jpeg";
 import { GiCalendar, GiClawSlashes, GiPhone } from "react-icons/gi";
 import { GiMailbox } from "react-icons/gi";
 import { FaLocationDot } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
 
 const Aside = () => {
   return (
@@ -17,7 +22,7 @@ const Aside = () => {
         <button className="info_more-btn">
           <span>Show Cont</span>
         </button>
-        <GiClawSlashes />
+        
       </div>
       {/* contact info */}
       <div className="sidebar-info_more">
@@ -69,6 +74,23 @@ const Aside = () => {
             </div>
           </li>
         </ul>
+        <div className="leetcodebox">
+      <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
+        <SiLeetcode className="icon" />
+      </a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+        <FaInstagram className="icon" />
+      </a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <CiLinkedin className="icon" />
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <FaGithub className="icon" />
+      </a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+        <FaTwitter className="icon" />
+      </a>
+    </div>
       </div>
     </aside>
   );

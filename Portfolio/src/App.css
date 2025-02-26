@@ -418,6 +418,72 @@ main {
   margin-bottom: 2px;
 }
 
+
+.leetcodebox {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #2e89ad;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon:hover {
+  color: #19587f;
+}
+
+.skillheading{
+  color: white;
+  font-weight: 800;
+  margin-left: 20px;
+
+}
+
+.Skills{
+  color: white;
+  height: 200px;
+  /* background-color: rgb(39, 92, 139); */
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.minSkills{
+  display: flex;
+  align-items: center;
+  height: 50%;
+  /* border: 3px solid black; */
+  width: 100%;
+  padding: 15px;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  
+
+}
+
+
+.skilsBox{
+  margin: 20px;
+  width: 8%;
+  /* border: 3px solid brown; */
+  
+  height: 100%;
+}
+.skilsBox img:hover{
+  
+  background-color: #2e89ad;
+}
+
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);

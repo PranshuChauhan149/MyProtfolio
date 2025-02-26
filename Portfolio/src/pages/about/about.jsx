@@ -1,5 +1,17 @@
 import Services from "./service"; // Correct component name
 
+import cLang from "./cLang.png";
+import boot from "./bootstrap.jpg";
+import cpp from "./cpp.jpg";
+import cs from "./css.jpg";
+import html from "./html.jpg";
+import java from "./java.jpg";
+import js from "./js.jpg";
+import php from "./php.jpg";
+import sql from "./sql.jpg";
+import tail from "./tailwind.jpg";
+
+
 const servicesData = [
   {
     title: "Web design",
@@ -56,8 +68,39 @@ I am constantly learning and improving my skills to become a skilled software en
 
 
       {/* es=......... */}
+      <h1 className="skillheading">Skills</h1>
+      <div className="Skills">
+        
+        <div className="minSkills">
+          <div className="skilsBox">
+          <img src={cLang} alt="C Language" width={50} />
+
+          </div>
+          
+          <div className="skilsBox">
+          <img src={boot} alt="C Language" width={50} />
+          </div>
+          <div className="skilsBox"> <img src={cpp} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={cs} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={html} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={java} alt="C Language" width={50} /></div>
+
+          </div>
+
+          <div className="minSkills">
+          <div className="skilsBox"> <img src={cLang} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={cLang} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={php} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={sql} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={js} alt="C Language" width={50} /></div>
+          <div className="skilsBox"> <img src={tail} alt="C Language" width={50} /></div>
+
+          </div>
+          
+      </div>
 
     </div>
+    
   );
 };
 
