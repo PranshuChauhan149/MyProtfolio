@@ -6,7 +6,7 @@ import Navbar from "./compouents/Navbar";
 const App =()=>{
   return <>
    <Aside></Aside>
-  <div className="main-content">
+  <div className="main-content" >
  
    <Navbar/>
     <section style={{

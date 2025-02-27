@@ -11,7 +11,6 @@ import php from "./php.jpg";
 import sql from "./sql.jpg";
 import tail from "./tailwind.jpg";
 
-
 const servicesData = [
   {
     title: "Web design",
@@ -41,23 +40,27 @@ const About = () => {
       <header>
         <h2 className="h2 article-title">About</h2>
       </header>
+
       <section className="about-text">
-        <p> Aspiring Software Engineer | B.Tech CSE (2027)
-
-I am a passionate Computer Science & Engineering student with a strong interest in Data Structures & Algorithms, Web Development, and System Design. I enjoy solving coding challenges and building efficient solutions.
- </p>
-
+        <p className="text-xl">
+          Aspiring Software Engineer | B.Tech CSE (2027)
+        </p>
         <p>
-Skills & Interests:
- Programming Languages: C++, Java, PHP
- Web Development: MERN Stack, React, Tailwind CSS
- Concepts: DSA, System Design, Networking
-
-I am constantly learning and improving my skills to become a skilled software engineer. Open to opportunities that help me grow and contribute effectively. Let's connect!</p>
+          I am a passionate Computer Science & Engineering student with a strong interest in Data Structures & Algorithms, Web Development, and System Design. I enjoy solving coding challenges and building efficient solutions.
+        </p>
+        <p>
+          <strong>Skills & Interests:</strong><br />
+          <strong>Programming Languages:</strong> C++, Java, PHP<br />
+          <strong>Web Development:</strong> MERN Stack, React, Tailwind CSS<br />
+          <strong>Concepts:</strong> DSA, System Design, Networking
+        </p>
+        <p>
+          I am constantly learning and improving my skills to become a skilled software engineer. Open to opportunities that help me grow and contribute effectively. Let's connect!
+        </p>
       </section>
 
       {/* Services Section */}
-      <section className="service"> {/* Fixed className typo */}
+      <section className="service">
         <h2 className="h3 service-title">What I'm Doing</h2>
         <ul className="service-list">
           {servicesData.map((service, index) => (
@@ -66,41 +69,26 @@ I am constantly learning and improving my skills to become a skilled software en
         </ul>
       </section>
 
-
-      {/* es=......... */}
+      {/* Skills Section */}
       <h1 className="skillheading">Skills</h1>
       <div className="Skills">
-        
         <div className="minSkills">
-          <div className="skilsBox">
-          <img src={cLang} alt="C Language" width={50} />
+          {[cLang, boot, cpp, cs, html, java].map((imgSrc, index) => (
+            <div className="skilsBox" key={index}>
+              <img src={imgSrc} alt={`Skill ${index + 1}`} width={50} />
+            </div>
+          ))}
+        </div>
 
-          </div>
-          
-          <div className="skilsBox">
-          <img src={boot} alt="C Language" width={50} />
-          </div>
-          <div className="skilsBox"> <img src={cpp} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={cs} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={html} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={java} alt="C Language" width={50} /></div>
-
-          </div>
-
-          <div className="minSkills">
-          <div className="skilsBox"> <img src={cLang} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={cLang} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={php} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={sql} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={js} alt="C Language" width={50} /></div>
-          <div className="skilsBox"> <img src={tail} alt="C Language" width={50} /></div>
-
-          </div>
-          
+        <div className="minSkills">
+          {[php, sql, js, tail].map((imgSrc, index) => (
+            <div className="skilsBox" key={index}>
+              <img src={imgSrc} alt={`Skill ${index + 7}`} width={50} />
+            </div>
+          ))}
+        </div>
       </div>
-
     </div>
-    
   );
 };
 
