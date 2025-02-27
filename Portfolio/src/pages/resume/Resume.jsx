@@ -12,7 +12,7 @@ return<>
   <FaBookReader />
 
   </div>
-  <h3 className='h3'>Experience</h3>
+  <h3 className='expeien-text'>Experience</h3>
 </div>
 
 <div>
@@ -40,7 +40,7 @@ return<>
   <FaBookReader />
 
   </div>
-  <h3 className="h3">Education</h3>
+  <h3 className="expeien-text">Education</h3>
 </div>
 
 <div>

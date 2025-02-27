@@ -42,16 +42,16 @@ const About = () => {
         <h2 className="h2 article-title">About</h2>
       </header>
       <section className="about-text">
-        <p>🚀 Aspiring Software Engineer | B.Tech CSE (2027)
+        <p> Aspiring Software Engineer | B.Tech CSE (2027)
 
 I am a passionate Computer Science & Engineering student with a strong interest in Data Structures & Algorithms, Web Development, and System Design. I enjoy solving coding challenges and building efficient solutions.
- 🚀</p>
+ </p>
 
         <p>
 Skills & Interests:
-✅ Programming Languages: C++, Java, PHP
-✅ Web Development: MERN Stack, React, Tailwind CSS
-✅ Concepts: DSA, System Design, Networking
+ Programming Languages: C++, Java, PHP
+ Web Development: MERN Stack, React, Tailwind CSS
+ Concepts: DSA, System Design, Networking
 
 I am constantly learning and improving my skills to become a skilled software engineer. Open to opportunities that help me grow and contribute effectively. Let's connect!</p>
       </section>

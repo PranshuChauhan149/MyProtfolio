@@ -75,16 +75,16 @@ const Aside = () => {
           </li>
         </ul>
         <div className="leetcodebox">
-      <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://leetcode.com/u/Pranshu_chauhan/" target="_blank" rel="noopener noreferrer">
         <SiLeetcode className="icon" />
       </a>
       <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
         <FaInstagram className="icon" />
       </a>
-      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/pranshu149/" target="_blank" rel="noopener noreferrer">
         <CiLinkedin className="icon" />
       </a>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/PranshuChauhan149" target="_blank" rel="noopener noreferrer">
         <FaGithub className="icon" />
       </a>
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">

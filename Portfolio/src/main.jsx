@@ -5,10 +5,12 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./pages/about/about.jsx";
 import Resume from "./pages/resume/Resume.jsx";
-import Prot from "./pages/Prot/Prot.jsx";
+// import Prot from "./pages/Prot/Prot.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
-import Portfolio from "./pages/Portfolio/Portfolio.jsx";
+import Protfolio from "./pages/Portfolio/Portfolio.jsx"; 
+// import About from "./pages/about/about.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -27,7 +29,7 @@ const router = createBrowserRouter([
     ,
     {
       path:"/portfolio",
-      element:<Portfolio></Portfolio>
+      element:<Protfolio></Protfolio>
 
     }
     ,
